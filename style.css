@@ -17,6 +17,8 @@
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
+    box-shadow: rgb(58, 128, 194);
+    border-radius: 5px;
 }
 .senha-cadastro{
     text-align: center;
