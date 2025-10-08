@@ -9,9 +9,11 @@
     height: 105px;
     margin-bottom: 20px;
 }
-.bloco-cadastro{
+input[type="e-mail"]
+input[type="password"]{
+    font-size: 16px;
+    border: 1px solid#ccc;
     border-radius: 5px;
-    box-shadow: rgba(81, 180, 236, 0.904);
 }
 .Login{
     display: block;
