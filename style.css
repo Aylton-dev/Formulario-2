@@ -10,9 +10,6 @@
     margin-bottom: 20px;
 }
 .bloco-cadastro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 350px;
     padding: 10px;
     background-color: #ccc;
