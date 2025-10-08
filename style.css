@@ -4,7 +4,23 @@
     justify-items: center;
 }
 .logo{
-    width: 355px;
-    height: 150px;
-    
+    width: 155px;
+    height: 55px;
+
 }
+.bloco-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.Login{
+    width: 200px;
+}
+.Login input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
