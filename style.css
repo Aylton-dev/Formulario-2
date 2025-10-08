@@ -19,8 +19,8 @@
     margin-bottom: 10px;
 }
 .organize{
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    gap: 15px;
 }
 .botao{
     text-align: center;
