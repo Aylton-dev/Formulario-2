@@ -12,15 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin: 10px;
 }
-.Login{
-    width: 200px;
-}
-.Login input{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
+
 
