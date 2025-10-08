@@ -14,5 +14,11 @@
     align-items: center;
     margin: 10px;
 }
+.Login{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 
 
