@@ -1,12 +1,8 @@
-.centraliza{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-}
 .logomarca{
     display: flex;
     justify-content: center;
     justify-items: center;
+    height: 100px;
 }
 .logo{
     width: 250px;
