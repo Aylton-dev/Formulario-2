@@ -8,13 +8,9 @@
     height: 55px;
 
 }
-.bloco-cadastro{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
 .Login{
     display: block;
+    text-align: center;
     width: 100%;
     margin-bottom: 10px;
 }
