@@ -20,12 +20,11 @@
 }
 .organize{
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 .botao{
     text-align: center;
     width: 100%;
-    margin: 10px;
 }
 .cancelar{
     text-align: center;
