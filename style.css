@@ -4,15 +4,18 @@
     justify-items: center;
 }
 .logo{
-    width: 155px;
-    height: 55px;
-
+    width: 250px;
+    height: 105px;
+    margin-bottom: 20px;
 }
 .Login{
     display: block;
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
+}
+.senha-cadastro{
+    text-align: center;
 }
 
 
