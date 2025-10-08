@@ -1,0 +1,10 @@
+.logomarca{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.logo{
+    width: 355px;
+    height: 150px;
+    
+}
