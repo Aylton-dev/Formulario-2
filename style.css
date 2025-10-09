@@ -30,14 +30,8 @@
     text-decoration: none;
     text-align: center;
 }
-.botao-entrar{
+.entrar{
     border-radius: 5px;
-    background-color: blue;
-    box-shadow: rgb(72, 74, 227);
-}
-button{
-     border-radius: 5px;
-    background-color: blue;
     box-shadow: rgb(72, 74, 227);
 }
 
