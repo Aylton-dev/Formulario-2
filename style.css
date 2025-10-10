@@ -40,6 +40,7 @@ input{
     border-radius: 6px;
     background-color: blue;
     color: #fff;
+    cursor: pointer;
 }
 .botao-cancelar{
     width: 125px;
@@ -47,6 +48,7 @@ input{
     background-color: #fff;
     color: rgb(35, 34, 34);
     border-color: blue;
+    cursor: pointer;
 }
 
 
