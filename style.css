@@ -36,13 +36,13 @@ input{
     border-color: rgb(0, 85, 205);
 }
 .botao-entrar{
-    width: 150px;
+    width: 125px;
     border-radius: 6px;
     background-color: blue;
     color: #fff;
 }
 .botao-cancelar{
-    width: 150px;
+    width: 125px;
     border-radius: 6px;
     background-color: #fff;
     color: rgb(35, 34, 34);
