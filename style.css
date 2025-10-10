@@ -13,10 +13,12 @@
     display: block;
     text-align: center;
     width: 100%;
+    height: 250px;
     margin-bottom: 10px;
 }
 .senha-cadastro{
     text-align: center;
+    width: 100%;
 }
 .organize{
     display: flex;
