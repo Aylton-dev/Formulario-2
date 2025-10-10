@@ -14,10 +14,11 @@
     display: block;
     text-align: center;
     justify-items: center;
-    border-radius: 5px;
 }
 .login-cadastro{
     margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(222, 222, 222);
 }
 
 
