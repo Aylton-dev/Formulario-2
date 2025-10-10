@@ -1,6 +1,6 @@
 .logo{
     width: 450px;
-    height: 150px;
+    height: 175px;
     margin-bottom: 5px;
 }
 .aqua{
@@ -21,7 +21,7 @@
     display: block;
     text-align: center;
     justify-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .botoes{
     display: flex;
