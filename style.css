@@ -36,9 +36,16 @@ input{
     border-color: rgb(23, 68, 131);
 }
 .botao-entrar{
+    width: 75px;
     border-radius: 6px;
     background-color: blue;
     color: #fff;
+}
+.botao-cancelar{
+    border-radius: 6px;
+    background-color: #fff;
+    color: rgb(35, 34, 34);
+    border-color: rgb(23, 68, 131);
 }
 
 
