@@ -1,7 +1,7 @@
 .logo{
     width: 450px;
     height: 150px;
-    margin-bottom: -35px;
+    margin-bottom: 5px;
 }
 .aqua{
     display: flex;
@@ -24,7 +24,7 @@
     margin-bottom: 15px;
 }
 .botoes{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
