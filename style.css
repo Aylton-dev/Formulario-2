@@ -21,6 +21,13 @@
     display: block;
     text-align: center;
     justify-items: center;
+    margin-bottom: 15px;
+}
+.botoes{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 
