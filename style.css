@@ -33,7 +33,7 @@
 input{
     border-radius: 6px;
     background-color: rgb(238, 238, 238);
-    border-color: rgb(23, 68, 131);
+    border-color: rgb(0, 85, 205);
 }
 .botao-entrar{
     width: 75px;
@@ -45,7 +45,7 @@ input{
     border-radius: 6px;
     background-color: #fff;
     color: rgb(35, 34, 34);
-    border-color: rgb(23, 68, 131);
+    border-color: blue;
 }
 
 
