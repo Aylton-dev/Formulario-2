@@ -14,12 +14,17 @@
     display: block;
     text-align: center;
     justify-items: center;
-    height: 350px;
 }
 .login-cadastro{
     margin-bottom: 5px;
 }
-
+input{
+    border-radius: 5px;
+    background-color: rgb(188, 185, 185);
+}
+input:hover{
+    box-shadow: rgb(24, 99, 218);
+}
 
 
 
