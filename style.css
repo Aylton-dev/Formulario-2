@@ -1,4 +1,15 @@
-
+.logo{
+    width: 250px;
+    height: 75px;
+    margin-bottom: 15px;
+}
+.aqua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
 
 
 
