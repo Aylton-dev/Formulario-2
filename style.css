@@ -57,19 +57,19 @@ h2{
 .nome_produto{
     display: block;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     margin-top: -50px;
     margin-bottom: 5px;
 }
 .tipo-produto{
     display: block;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
 }
-.tipo-produto{
+.codigo-produto{
     display: block;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
