@@ -50,11 +50,27 @@ input{
     border-color: blue;
     cursor: pointer;
 }
-h1{
+h2{
     text-align: center;
     height: 175px;
 }
-
-
+.nome_produto{
+    display: block;
+    text-align: center;
+    justify-items: center;
+    margin-top: -50px;
+    margin-bottom: 5px;
+}
+.tipo-produto{
+    display: block;
+    text-align: center;
+    justify-items: center;
+}
+.tipo-produto{
+    display: block;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
 
 
