@@ -50,6 +50,10 @@ input{
     border-color: blue;
     cursor: pointer;
 }
+h1{
+    text-align: center;
+    height: 175px;
+}
 
 
 
