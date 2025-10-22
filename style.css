@@ -57,21 +57,21 @@ h2{
 .nome_produto{
     display: block;
     text-align: center;
-    align-items: center;
+    justify-items: center;
     margin-top: -50px;
     margin-bottom: 5px;
 }
 .tipo_produto{
     display: block;
-    text-align: center; 
-    align-items: center;
+    text-align: center;
+    justify-items: center;
     margin-bottom: 5px;
 }
 .codigo_produto{
     display: block;
-    text-align: center; 
-    align-items: center;
-    margin-bottom: 20px;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 45px;
 }
 .botao-cadastrar{
     width: 125px;
@@ -79,6 +79,9 @@ h2{
     background-color: blue;
     color: #fff;
     cursor: pointer;
+}
+li{
+    text-decoration: none;
 }
 
 
