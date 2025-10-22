@@ -80,8 +80,18 @@ h2{
     color: #fff;
     cursor: pointer;
 }
-li{
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+}
+ul li a{
     text-decoration: none;
+    color: rgb(184, 184, 184);
+    padding: 5px 10px;
+    display: inline-block;
 }
 
 
