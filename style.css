@@ -61,15 +61,26 @@ h2{
     margin-top: -50px;
     margin-bottom: 5px;
 }
-.tipo-produto{
+.tipo_produto{
     display: flex;
     text-align: center;
     margin-bottom: 5px;
 }
-.codigo-produto{
+.codigo_produto{
     display: flex;
     text-align: center;
     margin-bottom: 20px;
+}
+.botao-cadastrar{
+    width: 125px;
+    border-radius: 6px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+ul {
+    margin-left: auto;
+    
 }
 
 
