@@ -83,7 +83,7 @@ h2{
 ul{
     list-style-type: none;
     padding: 0;
-    margin-bottom: 15px;
+    margin: auto;
     text-align: right;
     width: 150px;
 }
