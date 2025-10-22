@@ -93,6 +93,11 @@ ul li a{
     color: rgb(105, 105, 105);
     padding: 5px 10px;
 }
-
+.redefinir{
+    display: flex;
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+}
 
 
