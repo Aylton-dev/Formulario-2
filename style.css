@@ -56,20 +56,20 @@ h2{
 }
 .nome_produto{
     display: block;
-    justify-content: center; 
+    text-align: center;
     align-items: center;
     margin-top: -50px;
     margin-bottom: 5px;
 }
 .tipo_produto{
     display: block;
-    justify-content: center; 
+    text-align: center; 
     align-items: center;
     margin-bottom: 5px;
 }
 .codigo_produto{
     display: block;
-    justify-content: center; 
+    text-align: center; 
     align-items: center;
     margin-bottom: 20px;
 }
