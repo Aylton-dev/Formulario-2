@@ -27,18 +27,8 @@ document.getElementById('id_tipo_produto').addEventListener('keypress', function
     }
 });
 
-document.getElementById('botao-cadastrar').addEventListener('click', function() {
 
-    const nome = document.getElementById('id_nome_produto').value.trim();
-    const codigo = document.getElementById('id_codigo_produto').value.trim();
-    const tipo = document.getElementById('id_tipo_produto').value.trim();
-  
-    if(nome == ' ' || codigo ==' ' || tipo ==' '){
-        
-        alert(' Preencha todos os campos antes de enviar!');
-
-  } 
     
 
 
-});
+
