@@ -23,6 +23,7 @@ document.getElementById('id_tipo_produto').addEventListener('keypress', function
         event.preventDefault();{   
 
             alert('Este campo aceita apenas letras!');
+            return;
         }
     }
 });
@@ -36,8 +37,10 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
 
     if(nome === ''|| tipo === '' || codigo === ''){
         alert('❌ é obrigatorio preencher todos os campos!');
+        return;
     } else {
         alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\ncodigo: ${codigo}`);
+        return;
     }
 
 });
@@ -52,6 +55,7 @@ document.getElementById('link-conexao').addEventListener('click', function(event
 
     if(username === ''|| password === ''){
         alert('❌ usuario e senha invalida!');
+        return;
     } 
 
 });
