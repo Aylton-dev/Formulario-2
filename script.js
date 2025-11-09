@@ -60,9 +60,9 @@ document.getElementById('link-conexao').addEventListener('click', function(event
         
         window.location.href = destino;
         
-    } else{
+    } else {
 
-        alert('❌ Usuario e Senha inválidos!');
+        alert("❌ Usuario e Senha inválidos!");
     }
 
 });
