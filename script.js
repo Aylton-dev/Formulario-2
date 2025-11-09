@@ -4,10 +4,28 @@ document.getElementById('id_nome_produto').addEventListener('keypress', function
     
     const isNumber = !isNaN(event.key) && event.key !== ' ';
 
-    if (isNumber && isSpecialChar){
+    if (isNumber || isSpecialChar){
 
         event.preventDefault();{
             alert('Este campo aceita apenas letras!');
         }
     }
+});
+
+document.getElementsByClassName('botao-cadastrar').addEventListener('click', function() {
+
+    const nome = document.getElementById('id_nome_produto').value.trim();
+    const codigo = document.getElementById('id_codigo_produto').value.trim();
+    const tipo = document.getElementById('id_tipo_produto').value.trim();
+  
+    if(nome === '' || codigo ==='' || tipo ===''){
+        alert("⚠️ Preencha todos os campos antes de enviar!");
+
+  } else {
+    
+    alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\nPreço: R$ ${preco}`);
+  }
+    
+
+
 });
