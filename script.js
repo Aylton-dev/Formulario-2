@@ -34,8 +34,8 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
   const tipo = document.getElementById('id_tipo_produto').value.trim();
   const codigo = document.getElementById('id_codigo_produto').value.trim();
 
-    if(nome == ''|| tipo == '' || codigo == ''){
-        alert("❌ é obrigatorio preencher todos os campos!");
+    if(nome === ''|| tipo === '' || codigo === ''){
+        alert('❌ é obrigatorio preencher todos os campos!');
     } else {
         alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\ncodigo: ${codigo}`);
     }
