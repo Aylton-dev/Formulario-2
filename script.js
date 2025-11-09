@@ -34,12 +34,10 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
     const tipo = document.getElementById('id_tipo_produto').value.trim();
   
     if(nome == ' ' || codigo ==' ' || tipo ==' '){
+        
         alert("⚠️ Preencha todos os campos antes de enviar!");
 
-  } else {
-    
-    alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\ncodigo: ${codigo}`);
-  }
+  } 
     
 
 
