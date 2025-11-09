@@ -12,7 +12,7 @@ document.getElementById('id_nome_produto').addEventListener('keypress', function
     }
 });
 
-document.getElementsByClassName('botao-cadastrar').addEventListener('click', function() {
+document.getElementById('botao-cadastrar').addEventListener('click', function() {
 
     const nome = document.getElementById('id_nome_produto').value.trim();
     const codigo = document.getElementById('id_codigo_produto').value.trim();
@@ -23,7 +23,7 @@ document.getElementsByClassName('botao-cadastrar').addEventListener('click', fun
 
   } else {
     
-    alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\nPreço: R$ ${preco}`);
+    alert(`✅ Produto cadastrado com sucesso!\nNome: ${nome}\ncodigo: ${codigo}}`);
   }
     
 

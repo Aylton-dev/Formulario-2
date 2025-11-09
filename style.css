@@ -73,7 +73,7 @@ h2{
     justify-items: center;
     margin-bottom: 45px;
 }
-.botao-cadastrar{
+#botao-cadastrar{
     width: 125px;
     border-radius: 6px;
     background-color: blue;
