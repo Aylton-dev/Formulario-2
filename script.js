@@ -53,7 +53,7 @@ document.getElementById('link-conexao').addEventListener('click', function(event
     const password = document.getElementById('password').value.trim();
   
 
-    if(username !== ''|| password !== ''){
+    if(username !== '' && password !== ''){
         
         const destino = event.currentTarget.href; 
         
