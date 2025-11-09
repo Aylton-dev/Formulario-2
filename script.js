@@ -22,7 +22,7 @@ document.getElementById('id_tipo_produto').addEventListener('keypress', function
 
         event.preventDefault();{   
 
-            alert('Este campo aceita apenas letras');
+            alert('Este campo aceita apenas letras!');
         }
     }
 });
@@ -35,7 +35,7 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
   
     if(nome == ' ' || codigo ==' ' || tipo ==' '){
         
-        alert("⚠️ Preencha todos os campos antes de enviar!");
+        alert(' Preencha todos os campos antes de enviar!');
 
   } 
     
