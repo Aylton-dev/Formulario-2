@@ -35,7 +35,7 @@ input{
     background-color: rgb(238, 238, 238);
     border-color: rgb(0, 85, 205);
 }
-.botao-entrar{
+#botao-entrar{
     width: 125px;
     border-radius: 6px;
     background-color: blue;
