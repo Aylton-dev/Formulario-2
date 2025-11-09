@@ -53,10 +53,17 @@ document.getElementById('link-conexao').addEventListener('click', function(event
     const password = document.getElementById('password').value.trim();
   
 
-    if(username === ''|| password === ''){
-        alert('❌ usuario e senha invalida!');
-        return;
-    } 
+    if(username !== ''|| password !== ''){
+        
+        const destino = event.currentTarget.href; 
+        
+        
+        window.location.href = destino;
+        
+    } else{
+
+        alert('❌ Usuario e Senha inválidos!');
+    }
 
 });
 
