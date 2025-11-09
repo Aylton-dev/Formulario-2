@@ -45,7 +45,7 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
 
 });
 
-document.getElementById('link-conexao').addEventListener('click', function(event){
+document.getElementById('botao-entrar').addEventListener('click', function(event){
 
     event.preventDefault();
     
