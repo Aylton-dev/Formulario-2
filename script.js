@@ -18,7 +18,7 @@ document.getElementsByClassName('botao-cadastrar').addEventListener('click', fun
     const codigo = document.getElementById('id_codigo_produto').value.trim();
     const tipo = document.getElementById('id_tipo_produto').value.trim();
   
-    if(nome === '' || codigo ==='' || tipo ===''){
+    if(nome == '' || codigo =='' || tipo ==''){
         alert("⚠️ Preencha todos os campos antes de enviar!");
 
   } else {
