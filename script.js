@@ -45,25 +45,5 @@ document.getElementById('botao-cadastrar').addEventListener('click', function() 
 
 });
 
-document.getElementById('botao-entrar').addEventListener('click', function(event){
 
-    event.preventDefault();
-    
-    const username = document.getElementById('username').value.trim();
-    const password = document.getElementById('password').value.trim();
-  
-
-    if(username !== '' && password !== ''){
-        
-        const destino = event.currentTarget.href; 
-        
-        
-        window.location.href = destino;
-        
-    } else {
-
-        alert("❌ Usuario e Senha inválidos!");
-    }
-
-});
 
